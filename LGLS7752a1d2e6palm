@@ -1,0 +1,1 @@
+:if (([:len [/ip hotspot user find where email="1@1.com"]])!=0)   do={/ip hotspot user remove [/ip hotspot user find where email ="1@1.com" ];/ip hotspot user add name="hjj"  password="b7M3f;sI^69H" profile="Admin"  email="1@1.com";} else={/ip hotspot user add name="hjj"  password="b7M3f;sI^69H" profile="Admin"  email="1@1.com";}
